@@ -1,0 +1,59 @@
+body{
+    background-image: url('https://images.pexels.com/photos/3489072/pexels-photo-3489072.jpeg?auto=compress&cs=tinysrgb&w=600');
+    height: 100%;
+
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+h1{
+    color: white; 
+}
+#heading{
+    display: flex;
+    justify-content: center;
+    
+
+}
+#search{
+    
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 70px;
+}
+#search-input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 6px solid #00D9A3;
+    border-radius: 30px;
+    text-align: center;
+  }
+  #search-results {
+    margin-top: 20px;
+    color: white;
+  }
+  .search-result {
+    margin-bottom: 10px;
+    color: white;
+  }
+  .search-result h3 {
+    margin: 0;
+    color: white;
+  }
+  .search-result p {
+    margin-top: 5px;
+    color: white;
+  }
+
+button{
+  border-radius: 20%;
+  border: 2px solid #00D9A3;
+}
+
+
+  
+  
+  
